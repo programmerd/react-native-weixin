@@ -1,3 +1,4 @@
+// @flow
 import {observable} from "mobx"
 import {Image} from 'react-native'
 

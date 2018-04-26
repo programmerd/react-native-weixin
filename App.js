@@ -4,22 +4,19 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import store from './js/Store'
-import {Provider} from 'mobx-react/native'
-import MainScreen from './js/MainScreen'
+import React, { Component } from 'react';
+import store from './js/Store';
+import { Provider } from 'mobx-react/native';
+import MainScreen from './js/MainScreen';
+type Props = {};
 
-
-class App extends Component<{}>{
-
-  render(){
-    return(
+class App extends Component<Props> {
+  render() {
+    return (
       <Provider store={store}>
-        <MainScreen/>
+        <MainScreen />
       </Provider>
-    )
+    );
   }
 }
-export default App
-
-
+export default App;
