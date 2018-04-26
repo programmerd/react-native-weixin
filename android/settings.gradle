@@ -1,0 +1,3 @@
+rootProject.name = 'weixin'
+
+include ':app'
