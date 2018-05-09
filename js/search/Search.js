@@ -26,6 +26,7 @@ class Search extends Component<{}>{
         return(
             <View>
                 <Text>这是搜索兴趣爱好栏目</Text>
+                <Text>这是测试使用</Text>
             </View>
         )
     }
